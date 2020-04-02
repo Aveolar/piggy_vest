@@ -22,6 +22,14 @@ body {
         height: 100vh;
         overflow-y: scroll;
     }
+    .form-container {
+        padding: 15px;
+    }
+    input, select, button {
+        width: 100px;
+        padding: 12px 10px;
+        font-size: 15px;
+    } 
 }
 #container {
     display: flex;
