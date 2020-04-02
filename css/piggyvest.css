@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css?family=Baloo+Thambi+2&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    background-color: #062863;
+    font-family: 'Baloo Thambi 2';
+    background-image: url("../img/1.png"), url("../img/2.png"), url("../img/3.png"), url("../img/last.png");
+    background-repeat: no-repeat;
+    background-position: left -1% top -15%, right -7.5% top -1%, left -5% bottom -10%, right -5% bottom -5%;
+    background-attachment: fixed;
+    background-size: 200px, 200px, 200px, 200px;
+}
+#container {
+    display: flex;
+    min-height: 20vh;
+    justify-content: center;
+    align-items: center;
+}
+.sub-container {
+    display: block;
+    
+}
+.logo-container {
+    margin: 35px;
+    text-align: center;
+}
+.piggy-logo {
+    width: 13rem;
+}
+.form-container {
+    background-color: #fff;
+    border: hidden;
+    border-radius: 20px 20px 20px 0px;
+    padding: 35px 40px 35px 40px;
+}
+.signup-head {
+    text-align: center;
+    margin-bottom: 37px;
+}
+.form-header {
+    color: #0640a5;
+}
+.form-para {
+    font-weight: lighter;
+    font-size: 16px;
+}
+.signup-form {
+    margin-top: 15px;
+}
+.form-input {
+    margin: 15px 0px 20px 0px;
+}
+.form-input input{
+    display: block;
+}
+.form-input select{
+    display: block;
+}
+input {
+    outline: none;
+    margin-top: 3px;
+    padding: 17px 15px;
+    width: 350px;
+    border: hidden;
+    border-radius: .15rem;
+    background-color: #edf2f7;
+    cursor: pointer;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+}
+select {
+    outline: none;
+    margin-top: 3px;
+    padding: 17px 15px;
+    width: 385px;
+    border: hidden;
+    border-radius: 9px;
+    background-color: #edf2f7;
+}
+.signup-btn {
+    text-align: center;
+    margin-top: 35px;
+}
+button {
+    outline: none;
+    border: hidden;
+    border-radius: 10px 10px 10px 0px;
+    background-color: #0640a5;
+    color: #fff;
+    padding: 15px 15px;
+    width: 385px;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.link {
+    text-decoration: none;
+    color: #fff;
+}
+.login-link {
+    text-align: center;
+    margin: 25px 0px;
+    color: #fff;
+}
