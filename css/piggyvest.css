@@ -4,7 +4,6 @@
     padding: 0;
 }
 body {
-    height: 100vh;
     background-color: #062863;
     font-family: 'Baloo Thambi 2';
     background-image: url("../img/1.png"), url("../img/2.png"), url("../img/3.png"), url("../img/last.png");
@@ -18,17 +17,52 @@ body {
         background-size: 120px;
         background-position: left -1% top -5%, right -9.5% top -1%, left -8% bottom -4%, right -7% bottom -1%;
         height: 100vh;
-        overflow-y: scroll;
     }
     .form-container {
-        padding: 15px;
+        padding: 15px 3px;
     }
     input, select, button {
-        width: 100px;
-        padding: 12px 10px;
-        font-size: 15px;
+        width: 30px;
+        padding: 9px 2px;
+        font-size: 12px;
     } 
 }
+@media only screen and (max-width: 360px) {
+    body {
+        margin: 0px 2px !important;
+    }
+
+}
+@media only screen and (max-width: 450px) {
+    body {
+        background: #062863;
+        margin: 0px 115px;
+        padding: 0;
+    }
+    .form-container {
+        padding: 20px !important;
+        width: 300px;
+    }
+    #container {
+        margin: 0px 115px;
+    }
+    .logo-container {
+        margin: 7px;
+    }
+    input {
+        width: 270px !important;
+    } 
+    select {
+        width: 295px !important; 
+    }
+    button {
+        width: 295px !important;
+    }
+    .login-link{
+        margin-top: 5px;
+    }
+}
+
 #container {
     display: flex;
     min-height: 20vh;
@@ -50,7 +84,7 @@ body {
     background-color: #fff;
     border: hidden;
     border-radius: 20px 20px 20px 0px;
-    padding: 35px 40px 35px 40px;
+    padding: 35px 35px 35px 35px;
 }
 .signup-head {
     text-align: center;
@@ -79,7 +113,7 @@ input {
     outline: none;
     margin-top: 3px;
     padding: 17px 15px;
-    width: 350px;
+    width: 330px;
     border: hidden;
     border-radius: .15rem;
     background-color: #edf2f7;
@@ -97,7 +131,7 @@ select {
     outline: none;
     margin-top: 3px;
     padding: 17px 15px;
-    width: 385px;
+    width: 360px;
     border: hidden;
     border-radius: 9px;
     background-color: #edf2f7;
@@ -113,7 +147,7 @@ button {
     background-color: #0640a5;
     color: #fff;
     padding: 15px 15px;
-    width: 385px;
+    width: 360px;
     font-size: 17px;
     font-weight: bold;
     text-transform: uppercase;
