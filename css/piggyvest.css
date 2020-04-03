@@ -161,3 +161,9 @@ button {
     margin: 25px 0px;
     color: #fff;
 }
+@media only screen and (max-width: 402px) {
+    body {
+        margin: 0px 2px !important;
+    }
+
+}
